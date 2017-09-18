@@ -1,4 +1,4 @@
-package com.se.thread;
+package com.se.thread.synchronize;
 
 /**
  * Created by lty on 2017-9-18.

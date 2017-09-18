@@ -1,7 +1,7 @@
-package com.se.thread;
+package com.se.thread.synchronize;
 
 /**
- * Created by Administrator on 2017-9-18.
+ * Created by lty on 2017-9-18.
  */
 public class DrawThread extends Thread {
 
