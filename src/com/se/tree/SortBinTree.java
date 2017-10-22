@@ -1,9 +1,6 @@
 package com.se.tree;
 
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class SortBinTree<T extends Comparable> {
 
@@ -171,6 +168,14 @@ public class SortBinTree<T extends Comparable> {
             }
         }
         return list;
+    }
+
+
+    public static void main(String[] args) {
+        //Object[] o = {1, 2, 3, 4, 5, 6};
+        Object[] o = new Integer[4];
+        Integer[] a = (Integer[]) o;
+        System.out.println(Arrays.toString(a));
     }
 
 }
