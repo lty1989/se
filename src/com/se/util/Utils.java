@@ -9,4 +9,9 @@ public class Utils {
         System.out.println(msg);
 
     }
+
+
+    public static void Line() {
+        System.out.println("*******************************");
+    }
 }
