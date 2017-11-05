@@ -156,7 +156,7 @@ public class Graph {
             min = MAX_WEIGHT;
             minIdx = 0;
             for (int j = 1; j < vertexSize; j++) {
-                if (lowest[j] < min && lowest[j] < 0) {
+                if (lowest[j] < min && lowest[j] > 0) {
                     min = lowest[j];
                     minIdx = j;
                 }
@@ -172,6 +172,7 @@ public class Graph {
 
             }
         }
+        System.out.println("最小生成树 权值和：" + sum);
 
 
     }
