@@ -1,4 +1,4 @@
-package com.se;
+package com.se.graph;
 
 import java.util.LinkedList;
 
@@ -9,6 +9,14 @@ public class Graph {
     private int[][] matrix;
     public static final int MAX_WEIGHT = 1000;
 
+
+    public int getVertexSize() {
+        return vertexSize;
+    }
+
+    public int[][] getMatrix() {
+        return matrix;
+    }
 
     public Graph(int vertexSize) {
         this.vertexSize = vertexSize;
